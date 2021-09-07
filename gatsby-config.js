@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Node.js (TypeScript) API',
+    title: 'Floot',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,5 +13,22 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png',
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `EB Garamond\:400`,
+        ],
+        display: 'swap'
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/markdown-pages`,
+      },
+    },
+    `gatsby-transformer-remark`,
   ],
 };
