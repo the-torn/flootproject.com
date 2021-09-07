@@ -18,4 +18,4 @@ Advantages of Floot include:
 Limitations:
 * The tokens are not revealed until the end of the token distribution.
 
-Read the full details on [Medium]() and the smart contract code on [GitHub]().
+Read the full details on [Medium](https://medium.com/@iamthetorn/floot-fair-loot-5dd784113f44) and the smart contract code on [GitHub](https://github.com/the-torn/floot).
