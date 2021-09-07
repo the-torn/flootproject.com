@@ -1,0 +1,63 @@
+/*
+Styling based on Loot
+https://github.com/lootproject/website
+*/
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+
+  color: white;
+  background-color: hsl(0deg 0% 10%);
+
+  font-family: "EB Garamond", serif, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+.header {
+  height: 61px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 15px 20px;
+  font-size: 22px;
+  color: #ccc;
+}
+
+main h1 {
+  color: white;
+  font-size: 5rem;
+  margin: 15px 0px 0px 0px;
+  text-align: center;
+}
+
+main ul {
+  /* list-style-type: none; */
+  margin: 10px auto 30px auto;
+  /* padding: 0px; */
+}
+
+main li {
+  margin: 0px 10px;
+}
+
+main a {
+  color: inherit;
+  transition: color 300ms ease;
+}
+
+main a:hover {
+  color: white;
+  text-decoration: underline;
+}
